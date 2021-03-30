@@ -42,7 +42,7 @@
 
 .page-header .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .mobile-menu {
@@ -55,18 +55,14 @@
     background-color: #fff;
     padding: 48px 40px;
     transition: all 250ms linear;
-
     transform: translateX(-50%) translateY(-100%);
-   /*  opacity: 0;
-    visibility: hidden;
-    pointer-events: none; */
+    z-index: 5;
+    
   }
 
 .is-open {
      transform: translateX(-50%) translateY(0%);  
-      /* opacity: 1;
-      visibility: visible;
-      pointer-events: auto; */
+   
   }
 
 .mobile-menu-close-btn {

@@ -43,8 +43,6 @@
     }
     .card-set {
         width: 354px;
-        height: 440px;
-        
     }
 
 }
@@ -95,7 +93,7 @@ transition: .5s;
 
 @media(min-width: 1200px) {
     .filter {
-        margin-left: 295px;
+        margin: 0 auto;
     }
     .card-set {
         width: 370px;

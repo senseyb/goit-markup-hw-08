@@ -61,18 +61,7 @@ ol {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* .hero & {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .page-header & {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        border-bottom: 1px solid #ECECEC;
-    } */
+  outline: 1px solid tomato;
 }
 
 @media (min-width: 1200px) {
@@ -351,7 +340,7 @@ ol {
 
 .page-header .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .mobile-menu {
@@ -365,16 +354,11 @@ ol {
   padding: 48px 40px;
   transition: all 250ms linear;
   transform: translateX(-50%) translateY(-100%);
-  /*  opacity: 0;
-    visibility: hidden;
-    pointer-events: none; */
+  z-index: 5;
 }
 
 .is-open {
   transform: translateX(-50%) translateY(0%);
-  /* opacity: 1;
-      visibility: visible;
-      pointer-events: auto; */
 }
 
 .mobile-menu-close-btn {
@@ -921,7 +905,7 @@ padding-bottom: 30px;
 }
 
 .advantages-img-box {
-  width: 450px;
+  width: max-width;
   height: 120px;
   display: flex;
   justify-content: center;
@@ -1564,12 +1548,12 @@ margin-bottom: 16px;
 @media (min-width: 1200px) {
   .footer-left {
     margin-left: 0px;
-    margin-right: 70px;
+    margin-right: 81px;
     justify-content: flex-start;
     align-items: flex-start;
   }
   .footer-right {
-    margin-top: 10px;
+    margin-top: 12px;
     margin-right: 93px;
     display: flex;
     flex-direction: column;
@@ -1581,17 +1565,37 @@ margin-bottom: 16px;
   }
   .footer-form-input {
     width: 358px;
+    margin: 0;
+    margin-right: 12px;
   }
   .footer .logo {
     font-size: 26px;
     line-height: 1.19;
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 20px;
   }
-  .site-auth-bot {
-    margin-bottom: 60px;
+  .footer-form {
+    padding-top: 12px;
   }
   .footer .container {
     display: flex;
     flex-direction: row;
+  }
+  .footer-form-btn {
+    margin: 0;
+    padding: 0;
+  }
+  .footer-form-title {
+    text-align: left;
+    padding-top: 0px;
+  }
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .footer-right-title {
+    padding-top: 0px;
   }
 }
 
