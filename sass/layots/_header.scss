@@ -42,7 +42,7 @@
 
 .page-header .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .mobile-menu {
@@ -173,7 +173,10 @@
     fill: var(--accent-color-text);
 }
 @media(min-width:768px) {
-   .mobile-open-btn{
+   .page-header .container {
+       justify-content: center;
+   }
+    .mobile-open-btn{
        display: none;
    }
    .site-nav-list {
@@ -285,6 +288,10 @@
         font-size: 14px;
         line-height: 16px;
     }
+    .page-header .container {
+        justify-content: center;
+    }
+ 
 }
 
 
