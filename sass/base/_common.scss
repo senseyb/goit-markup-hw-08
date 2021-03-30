@@ -1,0 +1,39 @@
+:root {
+    --title-color-text:#212121 ;
+    --secondary-color-text:#757575 ;
+    --accent-color-text: #2196f3 ;
+    --white-color: #ffffff
+    
+
+}
+body {
+    background-color: var(--white-color);
+    color: var(--title-color-text);
+    font-family: Roboto, sans-serif ;
+}
+
+a{ text-decoration: none;}
+
+li {list-style: none;}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}

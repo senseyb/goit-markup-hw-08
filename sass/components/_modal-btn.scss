@@ -1,0 +1,33 @@
+.modal-form-btn {
+    width: 200px;
+    height: 50px;
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0px;
+    margin-left: 125px;
+    margin-top: 30px;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87px;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+
+  }
+
+
+.modal-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+    &:hover {
+      fill: #2196f3;
+      }
+} 

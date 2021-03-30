@@ -1,0 +1,127 @@
+.hero-title {
+    font-family: Roboto;
+    font-style: 400;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    height: 84px;
+    padding-top: 118px;
+
+}
+
+.hero {
+    background-color: #2F303A;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)) ,
+    url("../images1/mobile/title/hero_m.jpg");
+}
+
+
+
+
+
+.hero-btn {
+    width: 200px;
+    height: 50px;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--accent-color-text);
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 110px;
+    margin-bottom: 118px;
+    margin-left: 125px;
+
+ }
+
+
+@media (min-width: 768px) {
+    .hero {
+        background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)) ,
+    url("../images1/tablet/title/header_t.jpg");
+    }
+    .hero-btn {
+        margin-left: 269px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+    .hero-title {
+        font-size: 44px;
+        line-height: 1.36;
+        padding-bottom: 30px;
+    }
+    .hero {
+        background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)) ,
+    url("../images1/desktop/title/header_d.jpg");
+    }
+    .hero-btn {
+        margin-left: 485px;
+    }
+}
+
+
+
+
+    /* .hero {
+
+    flex-direction: column;
+    justify-content: center ;
+    flex-grow: 1;
+    background-color: #2F303A ;
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)) ,
+    url("../images1/hero-bc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hero-title {
+color: var(--white-color) ;
+font-style: 400;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+width: 696px;
+margin: 0 auto;
+padding-top: 200px;
+padding-bottom: 30px;
+
+
+}
+
+.hero-btn {
+    font-style: 400;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em ;
+    color: var(--white-color) ;
+    background-color: var(--accent-color-text) ;
+    width: 200px;
+    height: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 200px;
+    border-radius: 5px;
+    border: 0px;
+
+
+} */
